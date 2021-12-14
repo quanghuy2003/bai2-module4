@@ -59,32 +59,6 @@ public class EmailController {
         return "index";
     }
 
-
-
-//    @GetMapping ("/tong")
-//    public String tong (Model model, @RequestParam int a, int b) {
-//        model.addAttribute("tong", a + b);
-//        return "index";
-//    }
-//
-//    @GetMapping ("/hieu")
-//    public String hieu (Model model, @RequestParam int a, int b) {
-//        model.addAttribute("hieu", a - b);
-//        return "index";
-//    }
-//
-//    @GetMapping ("/tich")
-//    public String tich (Model model, @RequestParam int a, int b) {
-//        model.addAttribute("tich", a * b);
-//        return "index";
-//    }
-//
-//    @GetMapping ("/thuong")
-//    public String thuong (Model model, @RequestParam int a, int b) {
-//        model.addAttribute("hieu", a / b);
-//        return "index";
-//    }
-
     @GetMapping
     public String showIndex() {
         return "index";
