@@ -47,5 +47,13 @@
     <button name="cal" value="hieu">-</button>
     <button name="cal" value="thuong">/</button>
 </form>
+
+<form action="/submit">
+    <input type="checkbox" name="condiment" value="Lettuce"> Lettuce
+    <input type="checkbox" name="condiment" value="Tomato">  Tomato
+    <input type="checkbox" name="condiment" value="Mustard"> Mustard
+    <input type="checkbox" name="condiment" value="Sprouts"> Sprouts
+    <button>Save</button>
+</form>
 </body>
 </html>

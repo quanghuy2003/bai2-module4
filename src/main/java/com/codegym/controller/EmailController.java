@@ -86,4 +86,12 @@ public class EmailController {
         return "result";
     }
 
+
+
+    @GetMapping("/submit")
+    public String showResult(Model model, @RequestParam("condiment") String[] condiment){
+        model.addAttribute("condiment",condiment);
+        return "condiment";
+    }
+
 }
